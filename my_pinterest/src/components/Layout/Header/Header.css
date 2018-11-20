@@ -1,0 +1,13 @@
+.Header {
+    background-color:white;
+    color: #8e8e8e;
+    border-bottom: 1px solid #e9ebee;
+    font-family: system-ui, sans-serif;
+    box-sizing: border-box;
+    height: 65px;
+    min-width: 100%;
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    z-index:2;
+  }

@@ -1,0 +1,12 @@
+.Layout {
+    width: 100%;
+    /* padding-top:70px; */
+    height: 100vh; 
+    margin: auto auto 0 auto;
+    /* display: grid; */
+    grid-gap: 9px; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px; 
+}

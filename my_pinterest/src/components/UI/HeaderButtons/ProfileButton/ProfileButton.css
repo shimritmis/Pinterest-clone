@@ -1,0 +1,13 @@
+.ProfileButton {
+    height: 70%;
+    background-color: white;
+    font-family: inherit; 
+    font-weight: bold;
+    padding: 8px 15px;
+    box-sizing: border-box;
+}
+
+.ProfileButton:hover {
+    border-radius: 20px;
+    background-color: #efefef;
+}

@@ -1,0 +1,23 @@
+.Searchbar {
+    width: 68%;
+    min-width: 320px;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 5px;
+    justify-content: space-around;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    background-color: #efefef;
+}
+.Input {
+    background-color: inherit;
+    padding: 11px;
+    font: inherit;
+    border-left:transparent;
+    width: 100%;
+}
+.SearchLogo {
+    font-size:20px;
+}

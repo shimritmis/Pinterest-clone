@@ -1,0 +1,6 @@
+.Container {
+    display:flex;
+    padding:0 10px 0 10px;
+    align-items:flex-start;
+    flex-direction: row;
+}
