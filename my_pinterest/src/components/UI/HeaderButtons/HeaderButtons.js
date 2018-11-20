@@ -1,16 +1,19 @@
 import React from 'react';
 import Aux from '../../../hoc/Auxiliary';
-import HomeButton from './HomeButton/HomeButton';
-import FollowingButton from './FollowingButton/FollowingButton'
-import ProfileButton from './ProfileButton/ProfileButton'
-import classes from './HeaderButtons.css';
-
+import Button from './Button/Button';
+import classes from './HeaderButtons.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';   
 
 const headerButtons = (props) => (
-    <Aux className= {classes.headerButtons}> 
-        <HomeButton />
-        <FollowingButton />
-        <ProfileButton />
+    <Aux className= {classes.HeaderButtons}> 
+        <Button>Home</Button>
+        <Button>Following</Button>
+        <Button>Shimrit</Button>
+        <Button><FontAwesomeIcon icon="comment" className={classes.Icon}/></Button>
+        <Button><FontAwesomeIcon icon="bell" className={classes.Icon} /></Button>
+        <Button><FontAwesomeIcon icon="bell" className={classes.Icon} /></Button>
+    
+   
     </Aux>    
 );
 

@@ -1,15 +1,18 @@
 .Searchbar {
-    width: 68%;
+    width: 70%;
     min-width: 320px;
     height: 60%;
     display: flex;
     align-items: center;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 10px;
     justify-content: space-around;
     font-family: Helvetica,Arial,sans-serif;
     font-weight: 600;
     background-color: #efefef;
+}
+.Searchbar:focus-within {
+    border: 4px solid #83c3ff;
 }
 .Input {
     background-color: inherit;
@@ -18,6 +21,10 @@
     border-left:transparent;
     width: 100%;
 }
+.Input:focus-within {
+    border:transparent;
+}
 .SearchLogo {
     font-size:20px;
+    border:transparent;
 }
