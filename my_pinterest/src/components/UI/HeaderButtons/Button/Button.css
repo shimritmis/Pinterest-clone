@@ -1,4 +1,4 @@
-.FollowingButton {
+.Button {
     height: 70%;
     background-color: white;
     font-family: inherit; 
@@ -7,7 +7,9 @@
     box-sizing: border-box;
 }
 
-.FollowingButton:hover {
-    border-radius: 20px;
+.Button:hover {
+    border-radius: 25px;
     background-color: #efefef;
+    cursor: pointer;
 }
+

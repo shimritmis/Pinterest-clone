@@ -1,17 +1,16 @@
 import React from 'react';
-import classes from './Item.css';
+import classes from './PhotoPlaceholderOdd.css';
 
-const item=(props)=> (
-    <div className={classes.ItemParent}>
-        <div className ={classes.Item1}></div>
+const photoPlaceholderOdd=(props)=> (
+    <div className={classes.ItemParentFirstRow}>
         <div className ={classes.Item2}></div>
-        <div className ={classes.Item2}></div>
-        <div className ={classes.Item1}></div>
         <div className ={classes.Item1}></div>
         <div className ={classes.Item2}></div>
         <div className ={classes.Item1}></div>
+        <div className ={classes.Item2}></div>
         <div className ={classes.Item1}></div>
+        <div className ={classes.Item2}></div>
     </div>
 );
 
-export default item; 
+export default photoPlaceholderOdd; 

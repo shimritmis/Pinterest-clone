@@ -8,7 +8,7 @@ const headerButtons = (props) => (
     <Aux className= {classes.HeaderButtons}> 
         <Button>Home</Button>
         <Button>Following</Button>
-        <Button>Shimrit</Button>
+        <Button>User</Button>
         <Button><FontAwesomeIcon icon="comment" className={classes.Icon}/></Button>
         <Button><FontAwesomeIcon icon="bell" className={classes.Icon} /></Button>
         <Button><FontAwesomeIcon icon="bell" className={classes.Icon} /></Button>

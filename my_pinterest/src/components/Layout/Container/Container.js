@@ -1,18 +1,18 @@
 import React from 'react';
-import ItemFirstRow from '../../../containers/Item/ItemFirstRow';
-import Item from '../../../containers/Item/Item';
+import PhotoPlaceholderOdd from '../../../containers/Item/PhotoPlaceholderOdd';
+import PhotoPlaceholder from '../../../containers/Item/PhotoPlaceholder';
 
 import classes from './Container.css'
 
 const container=(props) => (
     <div className={classes.Container}>
-        <ItemFirstRow />
-        <Item />
-        <ItemFirstRow />
-        <Item />
-        <ItemFirstRow />
-        <Item />
-        <ItemFirstRow />
+        <PhotoPlaceholderOdd/>
+        <PhotoPlaceholder />
+        <PhotoPlaceholderOdd/>
+        <PhotoPlaceholder/>
+        <PhotoPlaceholderOdd/>
+        <PhotoPlaceholder />
+        <PhotoPlaceholderOdd/>
     </div>
 );
 

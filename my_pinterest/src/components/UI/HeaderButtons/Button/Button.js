@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './Button.css'
 
 const Button = (props) => (
-    <div className = {classes.FollowingButton}>
+    <div className = {classes.Button}>
         {props.children}
     </div>
 );
