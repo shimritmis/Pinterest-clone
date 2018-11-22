@@ -5,7 +5,8 @@
     display: flex;
     background-color:white;
     height: 236px;
-    width:230px;
+    width:220px;
+    background-color:red;
     margin: 0px 10px 20px 20px;  
 }
 .Item2 {

@@ -4,3 +4,9 @@
     align-items:flex-start;
     flex-direction: row;
 }
+
+
+
+@media (min-height: 680px), screen and (orientation: portrait) {
+    
+}

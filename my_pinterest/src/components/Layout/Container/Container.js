@@ -8,11 +8,11 @@ const container=(props) => (
     <div className={classes.Container}>
         <PhotoPlaceholderOdd/>
         <PhotoPlaceholder />
-        <PhotoPlaceholderOdd/>
+        <PhotoPlaceholderOdd />
         <PhotoPlaceholder/>
         <PhotoPlaceholderOdd/>
         <PhotoPlaceholder />
-        <PhotoPlaceholderOdd/>
+        <PhotoPlaceholderOdd />
     </div>
 );
 
