@@ -6,7 +6,7 @@ import classes from './Container.css'
 
 const container=(props) => (
     <div className={classes.Container}>
-        <PhotoPlaceholderOdd/>
+        <PhotoPlaceholderOdd />
         <PhotoPlaceholder />
         <PhotoPlaceholderOdd />
         <PhotoPlaceholder/>

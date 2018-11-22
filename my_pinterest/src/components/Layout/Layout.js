@@ -8,7 +8,7 @@ class Layout extends Component {
     return (
       <div className = {classes.Layout}>
         <Header />
-        <Container />
+        <Container className={classes.First}/>
       </div>
     )
   }
